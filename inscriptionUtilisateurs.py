@@ -1,8 +1,5 @@
 # test_inscription.py
 
-import pytest
-from unittest.mock import Mock
-
 
 # --- Code à tester ---
 

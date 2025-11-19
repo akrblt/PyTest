@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ad296a9-0968-4b06-8148-193f1d37d15f" name="Changes" comment="init : program testing start">
-      <change afterPath="$PROJECT_DIR$/adult.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calcul_tva.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_adult.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_calcul_tva.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_init_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/_init_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_inscriptionUtilisateurs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_recherche.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/inscriptionUtilisateurs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="353Sv3QfdGApTgJ4AbucsaVENrD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -53,15 +51,30 @@
     "Python tests.Python tests for test_calcul_tva.test_limite_prix_zero.executor": "Run",
     "Python tests.Python tests for test_calcul_tva.test_standart.executor": "Run",
     "Python tests.Python tests for test_calcul_tva.test_type_invalide.executor": "Run",
+    "Python tests.Python tests for test_inscriptionUtilisateurs.test_email_invalide.executor": "Run",
+    "Python tests.Python tests for test_inscriptionUtilisateurs.test_inscription_valide.executor": "Run",
+    "Python tests.Python tests for test_recherche.test_erreur_volontaire.executor": "Run",
+    "Python tests.Python tests for test_recherche.test_recherche_valide.executor": "Run",
     "Python.calcul_tva.executor": "Run",
     "Python.exercise_3.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/pr08glt/Desktop/FPA2_2/ICT_450_Testing_App/ICT_450_Test_App/tests",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.exercise_3">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pr08glt\Desktop\FPA2_2\ICT_450_Testing_App\ICT_450_Test_App\tests" />
+      <recent name="C:\Users\pr08glt\Desktop\FPA2_2\ICT_450_Testing_App\ICT_450_Test_App" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pr08glt\Desktop\FPA2_2\ICT_450_Testing_App\ICT_450_Test_App\tests" />
+      <recent name="C:\Users\pr08glt\Desktop\FPA2_2\ICT_450_Testing_App\ICT_450_Test_App" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for test_recherche.test_recherche_valide">
     <configuration name="exercise_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ICT_450_Test_App" />
       <option name="ENV_FILES" value="" />
@@ -106,7 +119,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_calcul_tva.test_erreur_prix_negatif_with_message" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_recherche.test_erreur_volontaire" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="ICT_450_Test_App" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,11 +130,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_calcul_tva.test_erreur_prix_negatif_with_message&quot;" />
+      <option name="_new_target" value="&quot;test_recherche.test_erreur_volontaire&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_calcul_tva.test_erreur_tva_negatif" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_recherche.test_recherche_valide" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="ICT_450_Test_App" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,11 +145,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_calcul_tva.test_erreur_tva_negatif&quot;" />
+      <option name="_new_target" value="&quot;test_recherche.test_recherche_valide&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_calcul_tva.test_limite_prix_zero" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.test_inscriptionUtilisateurs.test_email_invalide" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="ICT_450_Test_App" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,11 +160,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_calcul_tva.test_limite_prix_zero&quot;" />
+      <option name="_new_target" value="&quot;tests.test_inscriptionUtilisateurs.test_email_invalide&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_calcul_tva.test_type_invalide" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.test_inscriptionUtilisateurs.test_inscription_valide" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="ICT_450_Test_App" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,17 +175,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_calcul_tva.test_type_invalide&quot;" />
+      <option name="_new_target" value="&quot;tests.test_inscriptionUtilisateurs.test_inscription_valide&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_recherche.test_recherche_valide" />
+        <item itemvalue="Python tests.Python tests for test_recherche.test_erreur_volontaire" />
+        <item itemvalue="Python tests.Python tests for tests.test_inscriptionUtilisateurs.test_email_invalide" />
+        <item itemvalue="Python tests.Python tests for tests.test_inscriptionUtilisateurs.test_inscription_valide" />
         <item itemvalue="Python.exercise_3" />
-        <item itemvalue="Python tests.Python tests for test_calcul_tva.test_type_invalide" />
-        <item itemvalue="Python tests.Python tests for test_calcul_tva.test_limite_prix_zero" />
-        <item itemvalue="Python tests.Python tests for test_calcul_tva.test_erreur_tva_negatif" />
-        <item itemvalue="Python tests.Python tests for test_calcul_tva.test_erreur_prix_negatif_with_message" />
       </list>
     </recent_temporary>
   </component>
